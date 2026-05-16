@@ -59,14 +59,37 @@ Fluxo automatizado:
 
 ### Pré-requisitos
 
-- Node.js instalado
-- npm instalado
+Antes de iniciar, é necessário ter instalado:
 
-### Instalação
+- Node.js
+- npm
+- Git
+
+---
+
+### Clonar o repositório
+
+```bash
+git clone https://github.com/murillojuan955/automation-exercise-qa.git
+```
+
+---
+
+### Acessar a pasta do projeto
+
+```bash
+cd automation-exercise-qa
+```
+
+---
+
+### Instalar as dependências
 
 ```bash
 npm install
 ```
+
+---
 
 ### Executar Cypress em modo visual
 
@@ -74,11 +97,22 @@ npm install
 npx cypress open
 ```
 
+Após abrir o Cypress:
+1. Selecionar **E2E Testing**
+2. Escolher o navegador desejado
+3. Executar os testes disponíveis nas pastas:
+   - `api`
+   - `ui`
+
+---
+
 ### Executar testes em modo headless
 
 ```bash
 npx cypress run
 ```
+
+---
 
 
 ## Parte 1 - Estratégia, BDD e Testes Manuais
